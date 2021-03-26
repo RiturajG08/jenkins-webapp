@@ -21,7 +21,7 @@ public class HelloRituraj extends HttpServlet {
 		response.setContentType("text/html");
 		PrintWriter out= response.getWriter();
 		out.write("<html><body>");
-		out.write("<h1>Hello World</h1>");
+		out.write("<h1>Welcome Back Rituraj</h1>");
 		out.write("<h2>"+ LocalDateTime.now() +"</h2>");
 		out.write("</body></html>");
 	}
